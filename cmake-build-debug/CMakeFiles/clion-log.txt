@@ -13,6 +13,11 @@
 -- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: /Users/macbook/.hunter
+-- [hunter] [ Hunter-ID: 9a3594a | Toolchain-ID: 7e73122 | Config-ID: c351cc1 ]
+-- [hunter] GTEST_ROOT: /Users/macbook/.hunter/_Base/9a3594a/7e73122/c351cc1/Install (ver.: 1.8.0-hunter-p11)
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/macbook/CLionProjects/lab_03/cmake-build-debug

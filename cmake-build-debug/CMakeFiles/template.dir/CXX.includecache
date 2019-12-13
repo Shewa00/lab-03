@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/macbook/CLionProjects/lab_03/main.cpp
+../include/header.hpp
 iostream
+-
+atomic
+-
+algorithm
+-
+cstddef
+-
+string
+-
+
+/Users/macbook/CLionProjects/lab_03/sources/source.cpp
+header.hpp
 -
 
