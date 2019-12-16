@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Shewa00/lab-03.svg?branch=master)](https://travis-ci.org/Shewa00/lab-03)
+
 # Лабораторная работа №3
 
 ### Задание
