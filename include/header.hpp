@@ -8,12 +8,12 @@
 #include <iostream>
 #include <string>
 #include <utility>
-using namespace std;
+
 
 template <typename T> class SharedPtr {
 private:
   T *pointer;
-  atomic_uint *counter;
+  std::atomic_uint *counter;
 
 public:
   SharedPtr() {
@@ -22,7 +22,7 @@ public:
   }
   explicit SharedPtr(T *ptr) {
     pointer = ptr;
-    counter = new atomic_uint(1);
+    counter = new std::atomic_uint(1);
   }
   SharedPtr(const SharedPtr &r) {
     counter = nullptr;
