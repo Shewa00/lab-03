@@ -13,7 +13,7 @@ jobs:
         - docker run -v `pwd`:`pwd` -w `pwd` -t rusdevops/bootstrap-cpp scripts/checks.sh
     - name: "tests"
       script:
-        - ./tests
+        - ctest -V
 
 notifications:
   email: false
